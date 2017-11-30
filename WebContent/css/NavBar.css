@@ -1,0 +1,57 @@
+
+/* Scribe
+ * 
+ * Vincent Rodriguez
+ * Michael Takla
+ * Felipe Mansilla
+ * Noah Feldman
+ * 
+ */
+
+@charset "UTF-8";
+
+.header {
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 5%;
+	max-height: 5%;
+	width: auto;
+	max-width: auto;
+	background-color: #fcf9e3;
+}
+
+.header-buttons {
+	font-family: Centaur;
+}
+
+.header-button-container {
+	float: right;
+	width: 10vw;
+	height: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border-left: 4px solid #fcf9e3;
+	font-size: 1.5vw;
+}
+
+.header-button-container button {
+	height: 100%;
+	width: 100%;
+	-webkit-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+ 	border:0px solid transparent;
+}
+
+.header-button-container button:hover {
+	background-color: #fcf9e3;
+	opacity: 0.5;
+	color: black;
+}
+
+.header-button-container button:active {
+	background-color: #fcf9e3;
+	color: black;
+	outline: none;
+}
